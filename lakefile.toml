@@ -1,0 +1,16 @@
+name = "ClayPvsNPProof"
+version = "0.1.0"
+defaultTargets = ["ClayPvsNPProof"]
+
+[leanOptions]
+autoImplicit = false
+
+# O enunciado vem fixado por commit: a prova nunca pode trocar o problema.
+# O nome tem que ser o `name` do lakefile do repositório do enunciado.
+[[require]]
+name = "ClayPvsNP"
+git = "https://github.com/ShantiDraconis/clay-p-vs-np-statement.git"
+rev = "6375290555338218f009c52ac6078dc0c9c7a15c"
+
+[[lean_lib]]
+name = "ClayPvsNPProof"
