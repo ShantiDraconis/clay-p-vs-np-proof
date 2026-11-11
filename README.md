@@ -1,5 +1,7 @@
 # P vs NP — prova (Lean 4 / Mathlib)
 
+Autor: Tiago Paschoalatto Fagliari — ORCID [0009-0006-6874-3910](https://orcid.org/0009-0006-6874-3910)
+
 Depende do enunciado em [`ShantiDraconis/clay-p-vs-np-statement`](https://github.com/ShantiDraconis/clay-p-vs-np-statement),
 fixado no commit `6375290`. O alvo é `ClayPvsNP.P_eq_NP`, sem redefinição.
 
